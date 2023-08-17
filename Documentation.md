@@ -1,8 +1,9 @@
 # Purpose of Deployment
-To familiarize myself with using Jenkins for the CI pipeline and deploying applications with AWS Elastic Beanstalk. 
+To familiarize myself with using Jenkins for the CI pipeline and deploying applications with AWS Elastic Beanstalk. The application files had an error in them, so I was also able to learn how to look through the logs on AWS Elastic Beanstalk to identify and resolve the issue.
 
-
-I downloaded the files from the kura labs repository and uploaded them to my newly created repository. I then connected my repository to Jenkins and ran the pipeline. The build was successful. 
+# Steps to Production
+## 1. Using Jenkins to build and test application
+    I downloaded the files from the Kura Labs repository and uploaded them to my newly created repository. I       then connected my repository to Jenkins and ran the pipeline. The build was successful. 
 
 The console output for build shows that it is installing the required packages. The test phase ran a test on the code and it outputted the results to a file. 
 
